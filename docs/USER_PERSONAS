@@ -1,0 +1,87 @@
+# 👥 User Personas – GenAI A/B Test Analyzer
+
+This document outlines five diverse user personas to guide design, development, and prioritization decisions for the GenAI-powered A/B Test Analyzer. Each persona represents a target user segment across industries, roles, and levels of technical fluency.
+
+---
+
+## 👤 Persona 1: Priya Suresh – Product Manager at a SaaS Startup
+
+| Attribute       | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| **Name**        | Priya Suresh                                                               |
+| **Pronouns**    | She/Her                                                                    |
+| **Role**        | Product Manager                                                            |
+| **Industry**    | B2B SaaS (Workflow Tools)                                                  |
+| **Goals**       | Make quick roadmap decisions based on A/B test insights                    |
+| **Frustrations**| Small data team; limited time for manual data analysis                     |
+| **Behavior**    | Uses Notion, Jira, Amplitude; participates in product strategy             |
+| **Tech Fluency**| Medium                                                                     |
+| **JTBD**        | “When I run an A/B test, I want fast, clear answers so I can prioritize features.” |
+
+---
+
+## 👤 Persona 2: David Nguyen – Data Analyst at an E-Commerce Company
+
+| Attribute       | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| **Name**        | David Nguyen                                                               |
+| **Pronouns**    | He/Him                                                                     |
+| **Role**        | Data Analyst                                                               |
+| **Industry**    | Retail E-Commerce                                                          |
+| **Goals**       | Validate test results and support decision-making                          |
+| **Frustrations**| Repetitive analysis requests from non-technical teams                      |
+| **Behavior**    | Uses SQL, Python, Tableau; deeply involved in test design and measurement  |
+| **Tech Fluency**| High                                                                       |
+| **JTBD**        | “When I analyze test data, I want quick summaries so I can focus on deep dives.” |
+
+---
+
+## 👤 Persona 3: Rachel Kim – Growth Marketing Manager at a B2C App
+
+| Attribute       | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| **Name**        | Rachel Kim                                                                 |
+| **Pronouns**    | She/They                                                                   |
+| **Role**        | Growth Marketing Manager                                                   |
+| **Industry**    | Mobile Apps (B2C, EdTech)                                                  |
+| **Goals**       | Improve conversion through messaging and landing page experiments          |
+| **Frustrations**| Struggles to interpret statistical data; depends heavily on data team      |
+| **Behavior**    | Uses Mixpanel, Looker, GA; runs frequent A/B tests on campaigns            |
+| **Tech Fluency**| Low                                                                        |
+| **JTBD**        | “When I run a campaign A/B test, I want to know what worked and why, fast.” |
+
+---
+
+## 👤 Persona 4: Jamal Robinson – Product Designer at a FinTech Company
+
+| Attribute       | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| **Name**        | Jamal Robinson                                                             |
+| **Pronouns**    | He/Him                                                                     |
+| **Role**        | Product Designer                                                           |
+| **Industry**    | FinTech                                                                    |
+| **Goals**       | Understand user behavior across design variants                            |
+| **Frustrations**| Doesn’t have direct access to test data; insights are delayed              |
+| **Behavior**    | Uses Figma, Hotjar, Usertesting.com; iterates on visual experiments        |
+| **Tech Fluency**| Medium                                                                     |
+| **JTBD**        | “When we test design changes, I want insights that help guide UX decisions.” |
+
+---
+
+## 👤 Persona 5: Amina Hassan – Senior Program Manager at a HealthTech Company
+
+| Attribute       | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| **Name**        | Amina Hassan                                                               |
+| **Pronouns**    | She/Her                                                                    |
+| **Role**        | Senior Program Manager                                                     |
+| **Industry**    | Healthcare Technology                                                      |
+| **Goals**       | Monitor test impact and communicate results to leadership                  |
+| **Frustrations**| Test analysis is hard to interpret with regulated metrics and time limits  |
+| **Behavior**    | Uses dashboards, reads executive summaries; manages stakeholder alignment  |
+| **Tech Fluency**| Low                                                                        |
+| **JTBD**        | “When reviewing A/B tests, I want high-level takeaways to report to leadership.” |
+
+---
+
+📌 These personas are living documents and can evolve as we gain more insights from users and real-world usage of the GenAI A/B Test Analyzer.
