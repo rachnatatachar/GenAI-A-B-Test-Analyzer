@@ -1,26 +1,27 @@
-# GenAI-Powered A/B Test Analyzer
+# GenAI A/B Test Analyzer
 
-## Overview
-An open-source A/B test analyzer that combines statistical analysis with GenAI-powered summaries to help product teams understand what’s working and what’s not—fast.
+A GenAI-powered A/B test analyzer that enables product managers, data analysts, and marketers to evaluate A/B test results in a simple and effective way.
 
-## Features
-- Upload A/B test data via CSV
-- Automatic statistical significance testing
-- GPT-generated plain-English summaries of results
-- Downloadable experiment reports (PDF)
+Built using **Python**, **Streamlit**, and **statistical testing**, this tool helps you:
+- Upload A/B test results (CSV)
+- Validate the dataset
+- Visualize and compare variant performance
+- Get a recommendation based on statistical significance (t-test @ 95% confidence)
 
-## Who It's For
-Product managers, marketers, growth teams, and analysts running A/B experiments
+---
 
-## Tech Stack
-- Python, pandas, scipy/statsmodels
-- OpenAI API (GPT-4) for summaries
-- Streamlit (or Flask) for UI
-- Plotly or Matplotlib for visualizations
+## Project Structure
 
-## Getting Started
+| File | Description |
+|------|-------------|
+| `app.py` | Streamlit app – upload CSV and view results |
+| `Run_AB_Test_Tool.ipynb` | Jupyter Notebook with complete backend engine + visualization + run demo |
+| `data/sample_ab_test.csv` | Sample A/B test dataset |
 
+---
 
-## Future Roadmap
-- API support for test data ingestion
-- Slack/Email notification integration
+## How to Run Locally
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
