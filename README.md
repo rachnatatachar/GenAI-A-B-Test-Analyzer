@@ -1,5 +1,6 @@
 # GenAI A/B Test Analyzer
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rachnatatachar-genai-a-b-test-analyzer.streamlit.app)<br>
 A GenAI-powered A/B test analyzer that enables product managers, data analysts, and marketers to evaluate A/B test results in a simple and effective way.
 
 Built using **Python**, **Streamlit**, and **statistical testing**, this tool helps you:
